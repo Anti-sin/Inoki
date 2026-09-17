@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Pacifico&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: oklch(0.32 0.045 165);
+  --cream: oklch(0.94 0.03 85);
+  --sage: oklch(0.68 0.045 165);
+  --sage-deep: oklch(0.42 0.05 165);
+  --card: oklch(0.28 0.045 165);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--cream);
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-script {
+  font-family: "Pacifico", cursive;
+}
+
+.font-serif-display {
+  font-family: "Fraunces", Georgia, serif;
+}
