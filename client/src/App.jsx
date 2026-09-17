@@ -15,8 +15,8 @@ function Home() {
     <main className="min-h-screen bg-[var(--background)]">
       <Navbar />
       <Hero />
-      <SignatureMenu />
       <OurStory />
+      <SignatureMenu />
       <MenuPreview />
       <Quote />
       <VisitUs />
